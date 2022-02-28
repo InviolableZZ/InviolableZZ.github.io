@@ -1,0 +1,1111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Serif', sans-serif;
+    background-color: black;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    text-align: right;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+@media (max-width: 480px) {
+    .nav-links ul li{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) and ( min-width: 480px) {
+    .nav-links ul li{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+    }
+}
+@media (max-width: 1024px) and ( min-width: 768px){
+    .nav-links ul li{
+        list-style: none;
+        display: inline-flex;
+    }
+    
+}
+@media (max-width: 1200px) and ( min-width: 1024px) {
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+    }
+}
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+@media (max-width: 480px)  {
+    .nav-links ul li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 15px;
+    }
+}@media (max-width: 768px) and ( min-width: 480px) {
+    .nav-links ul li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 18px;
+    }
+}@media (max-width: 1024px) and ( min-width: 768px) {
+    .nav-links ul li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 18px;
+    }
+}@media (max-width: 1200px) and ( min-width: 1024px) {
+    .nav-links ul li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 18px;
+    }
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0;
+    height: 2px;
+    background: #e79231;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.hero-btn:hover{
+    border: 1px solid #e79231;
+    background: #e79231;
+    transition: 1s;
+}
+
+.row{
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 480px)  {
+    .row{
+        margin-top: 6%;
+        display: block;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+}
+@media (max-width: 768px) and ( min-width: 480px) {
+    .row{
+        margin-top: 6%;
+        display: block;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+}
+@media (max-width: 1024px) and ( min-width: 768px) {
+    .row{
+        margin-top: 6%;
+        display: block;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+}
+@media (max-width: 1200px) and ( min-width: 1024px) {
+    .row{
+        margin-top: 6%;
+        display: block;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+}
+.course-col1{
+    overflow: hidden;
+    position: relative;
+    flex-basis: 31%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 3%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 1s;
+    border: 50px solid #fff;
+    border-bottom: 180px solid #fff;
+}
+@media (max-width: 480px)  {
+    .course-col1{
+        overflow: hidden;
+        position: relative;
+        flex-basis: 31%;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 3%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 1s;
+        border: 50px solid #fff;
+        border-bottom: 180px solid #fff;
+    }
+}
+@media (max-width: 768px) and ( min-width: 480px) {
+    .course-col1{
+        overflow: hidden;
+        position: relative;
+        flex-basis: 31%;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 3%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 1s;
+        border: 50px solid #fff;
+        border-bottom: 180px solid #fff;
+    }
+}
+@media (max-width: 1024px) and ( min-width: 768px) {
+    .course-col1{
+        overflow: hidden;
+        position: relative;
+        flex-basis: 31%;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 3%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 1s;
+        border: 50px solid #fff;
+        border-bottom: 180px solid #fff;
+    }
+}
+@media (max-width: 1200px) and ( min-width: 1024px) {
+    .course-col1{
+        overflow: hidden;
+        position: relative;
+        flex-basis: 31%;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 3%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 1s;
+        border: 50px solid #fff;
+        border-bottom: 180px solid #fff;
+    }
+}
+
+h2 {
+    visibility: visible;
+    color: #fff;
+    font-size: 0;
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    background: transparent;
+    margin-bottom: 50%;
+}
+@media (max-width: 480px)  {
+    
+    h2{
+        visibility: visible;
+        font-size: 25px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background: rgb(224, 159, 17, 0.932);
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 5%;
+        font-weight: 500;
+    }
+    h3{
+        font-size: 20px;
+        text-align: center;
+        font-weight: 600;
+        align-items: center;
+        background: transparent;
+        visibility: hidden;
+    }
+    }
+    @media (max-width: 768px) and ( min-width: 480px) {
+        h2{
+            visibility: visible;
+            font-size: 25px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            background: rgb(224, 159, 17, 0.932);
+            border-radius: 10px;
+            box-sizing: border-box;
+            padding: 5%;
+            font-weight: 500;
+        }
+        h3{
+            font-size: 20px;
+            text-align: center;
+            font-weight: 600;
+            align-items: center;
+            background: transparent;
+            visibility: hidden;
+        }
+        }
+        @media (max-width: 1024px) and ( min-width: 768px) {
+            h2{
+                visibility: visible;
+                font-size: 25px;
+                text-align: center;
+                color: rgb(255, 255, 255);
+                background: rgb(224, 159, 17, 0.932);
+                border-radius: 10px;
+                box-sizing: border-box;
+                padding: 5%;
+                font-weight: 500;
+            }
+            h3{
+                font-size: 20px;
+                text-align: center;
+                font-weight: 600;
+                align-items: center;
+                background: transparent;
+                visibility: hidden;
+            }
+            }
+            @media (max-width: 1200px) and ( min-width: 1024px) {
+                h2{
+                    visibility: visible;
+                    font-size: 25px;
+                    text-align: center;
+                    color: rgb(255, 255, 255);
+                    background: rgb(224, 159, 17, 0.932);
+                    border-radius: 10px;
+                    box-sizing: border-box;
+                    padding: 5%;
+                    font-weight: 500;
+                }
+                h3{
+                    font-size: 20px;
+                    text-align: center;
+                    font-weight: 600;
+                    align-items: center;
+                    background: transparent;
+                    visibility: hidden;
+                }
+                }
+
+    .course-col1:hover{
+    box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+    border: 10px solid rgb(224, 159, 17, 0.932);
+    box-sizing: border-box;
+    border-radius: 10px;;
+    background-image: url(Juli\ Regenschirm\ Pink\ Kopie.png);
+    background-position: center;
+    background-size:cover;
+    color: transparent;
+    }
+    @media (max-width: 423px) {
+        .course-col1:hover{
+            box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+            
+            
+            border-radius: 10px;;
+           
+            background-position: center;
+            background-size:cover;
+            color: transparent;
+            margin-bottom: 100px;
+            
+            }
+    }
+    @media (max-width: 480px) and (min-width: 423px) {
+        .course-col1:hover{
+            box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+            border: 50px solid transparent;
+            box-sizing: border-box;
+            border-radius: 10px;;
+            background-image: url(Juli\ Regenschirm\ Pink\ Kopie.png);
+            background-position: center;
+            background-size:cover;
+            color: transparent;
+            margin-bottom: 100px;
+            
+            }
+    }
+    @media (max-width: 768px) and ( min-width: 480px) {
+        .course-col1:hover{
+            box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+            border: 50px solid transparent;
+            box-sizing: border-box;
+            border-radius: 10px;;
+            background-image: url(Juli\ Regenschirm\ Pink\ Kopie.png);
+            background-position: center;
+            background-size:cover;
+            color: transparent;
+            margin-bottom: 100px;
+            
+            }
+    }
+    @media (max-width: 1024px) and ( min-width: 768px) {
+        .course-col1:hover{
+            box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+            border: 50px solid transparent;
+            box-sizing: border-box;
+            border-radius: 10px;;
+            background-image: url(Juli\ Regenschirm\ Pink\ Kopie.png);
+            background-position: center;
+            background-size:cover;
+            color: transparent;
+            margin-bottom: 100px;
+            
+            }
+    }
+    
+    @media (max-width: 1200px) and ( min-width: 1024px) {
+        .course-col1:hover{
+            box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+            border: 50px solid transparent;
+            box-sizing: border-box;
+            border-radius: 10px;;
+            background-image: url(Juli\ Regenschirm\ Pink\ Kopie.png);
+            background-position: center;
+            background-size:cover;
+            color: transparent;
+            margin-bottom: 100px;
+            
+            }
+    }
+    .course-col2{
+        overflow: hidden;
+        position: relative;
+        flex-basis: 31%;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 3%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 1s;
+        border: 50px solid #fff;
+        border-bottom: 180px solid #fff;
+    }
+    @media (max-width: 480px)  {
+        .course-col2{
+            overflow: hidden;
+            position: relative;
+            flex-basis: 31%;
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            margin-bottom: 3%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 1s;
+            border: 50px solid #fff;
+            border-bottom: 180px solid #fff;
+        }
+    }
+    @media (max-width: 768px) and ( min-width: 480px) {
+        .course-col2{
+            overflow: hidden;
+            position: relative;
+            flex-basis: 31%;
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            margin-bottom: 3%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 1s;
+            border: 50px solid #fff;
+            border-bottom: 180px solid #fff;
+        }
+    }
+    @media (max-width: 1024px) and ( min-width: 768px) {
+        .course-col2{
+            overflow: hidden;
+            position: relative;
+            flex-basis: 31%;
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            margin-bottom: 3%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 1s;
+            border: 50px solid #fff;
+            border-bottom: 180px solid #fff;
+        }
+    }
+    @media (max-width: 1200px) and ( min-width: 1024px) {
+        .course-col2{
+            overflow: hidden;
+            position: relative;
+            flex-basis: 31%;
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            margin-bottom: 3%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 1s;
+            border: 50px solid #fff;
+            border-bottom: 180px solid #fff;
+        }
+    }
+    .course-col2:hover{
+        box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+        border: 10px solid rgb(224, 159, 17, 0.932);
+        box-sizing: border-box;
+        border-radius: 10px;;
+        background-image: url( IMG_7742.JPG) ;
+        background-position: center;
+        background-size:cover;
+        color: transparent;
+        }
+        @media (max-width: 423px) {
+            .course-col2:hover{
+                box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+                
+                box-sizing: border-box;
+                border-radius: 10px;;
+                background-image: url(IMG_7742.JPG);
+                background-position: center;
+                background-size:cover;
+                color: transparent;
+                margin-bottom: 100px;
+                
+                }
+        }
+        @media (max-width: 480px) and (min-width: 423px){
+            .course-col2:hover{
+                box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+                border: 50px solid transparent;
+                box-sizing: border-box;
+                border-radius: 10px;;
+                background-image: url(IMG_7742.JPG);
+                background-position: center;
+                background-size:cover;
+                color: transparent;
+                margin-bottom: 100px;
+                
+                }
+        }
+        @media (max-width: 768px) and ( min-width: 480px) {
+            .course-col2:hover{
+                box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+                border: 50px solid transparent;
+                box-sizing: border-box;
+                border-radius: 10px;;
+                background-image: url(IMG_7742.JPG);
+                background-position: center;
+                background-size:cover;
+                color: transparent;
+                margin-bottom: 100px;
+                
+                }
+        }
+        @media (max-width: 1024px) and ( min-width: 768px) {
+            .course-col2:hover{
+                box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+                border: 50px solid transparent;
+                box-sizing: border-box;
+                border-radius: 10px;;
+                background-image: url(IMG_7742.JPG);
+                background-position: center;
+                background-size:cover;
+                color: transparent;
+                margin-bottom: 100px;
+                
+                }
+        }
+        
+        @media (max-width: 1200px) and ( min-width: 1024px) {
+            .course-col2:hover{
+                box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+                border: 50px solid transparent;
+                box-sizing: border-box;
+                border-radius: 10px;;
+                background-image: url(IMG_7742.JPG);
+                background-position: center;
+                background-size:cover;
+                color: transparent;
+                margin-bottom: 100px;
+                
+                }
+        }
+        .course-col3{
+            overflow: hidden;
+            position: relative;
+            flex-basis: 31%;
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            margin-bottom: 3%;
+            padding: 20px 12px;
+            box-sizing: border-box;
+            transition: 1s;
+            border: 50px solid #fff;
+            border-bottom: 180px solid #fff;
+           /* border-radius: 50px; */
+        }
+        @media (max-width: 480px)  {
+            .course-col3{
+                overflow: hidden;
+                position: relative;
+                flex-basis: 31%;
+                background: rgb(255, 255, 255);
+                border-radius: 10px;
+                margin-bottom: 3%;
+                padding: 20px 12px;
+                box-sizing: border-box;
+                transition: 1s;
+                border: 50px solid #fff;
+                border-bottom: 180px solid #fff;
+            }
+        }
+        @media (max-width: 768px) and ( min-width: 480px) {
+            .course-col3{
+                overflow: hidden;
+                position: relative;
+                flex-basis: 31%;
+                background: rgb(255, 255, 255);
+                border-radius: 10px;
+                margin-bottom: 3%;
+                padding: 20px 12px;
+                box-sizing: border-box;
+                transition: 1s;
+                border: 50px solid #fff;
+                border-bottom: 180px solid #fff;
+            }
+        }
+        @media (max-width: 1024px) and ( min-width: 768px) {
+            .course-col3{
+                overflow: hidden;
+                position: relative;
+                flex-basis: 31%;
+                background: rgb(255, 255, 255);
+                border-radius: 10px;
+                margin-bottom: 3%;
+                padding: 20px 12px;
+                box-sizing: border-box;
+                transition: 1s;
+                border: 50px solid #fff;
+                border-bottom: 180px solid #fff;
+            }
+        }
+        @media (max-width: 1200px) and ( min-width: 1024px) {
+            .course-col3{
+                overflow: hidden;
+                position: relative;
+                flex-basis: 31%;
+                background: rgb(255, 255, 255);
+                border-radius: 10px;
+                margin-bottom: 3%;
+                padding: 20px 12px;
+                box-sizing: border-box;
+                transition: 1s;
+                border: 50px solid #fff;
+                border-bottom: 180px solid #fff;
+            }
+        }
+        .course-col3:hover{
+            box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+            border: 10px solid rgb(224, 159, 17, 0.932);
+            box-sizing: border-box;
+            border-radius: 10px;;
+            background-image: url(Egg.png);
+            background-position: center;
+            background-size:cover;
+            color: transparent;
+            }
+            @media (max-width: 423px) {
+                .course-col3:hover{
+                    box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+                    
+                    box-sizing: border-box;
+                    border-radius: 10px;;
+                    background-image: url(Egg.png);
+                    background-position: center;
+                    background-size:cover;
+                    color: transparent;
+                    margin-bottom: 100px;
+                    
+                    }
+            }
+            @media (max-width: 480px) and (min-width: 423px) {
+                .course-col3:hover{
+                    box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+                    border: 50px solid transparent;
+                    box-sizing: border-box;
+                    border-radius: 10px;;
+                    background-image: url(Egg.png);
+                    background-position: center;
+                    background-size:cover;
+                    color: transparent;
+                    margin-bottom: 100px;
+                    
+                    }
+            }
+            @media (max-width: 768px) and ( min-width: 480px) {
+                .course-col3:hover{
+                    box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+                    border: 50px solid transparent;
+                    box-sizing: border-box;
+                    border-radius: 10px;;
+                    background-image: url(Egg.png);
+                    background-position: center;
+                    background-size:cover;
+                    color: transparent;
+                    margin-bottom: 100px;
+                    
+                    }
+            }
+            @media (max-width: 1024px) and ( min-width: 768px) {
+                .course-col3:hover{
+                    box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+                    border: 50px solid transparent;
+                    box-sizing: border-box;
+                    border-radius: 10px;;
+                    background-image: url(Egg.png);
+                    background-position: center;
+                    background-size:cover;
+                    color: transparent;
+                    margin-bottom: 100px;
+                    
+                    }
+            }
+            
+            @media (max-width: 1200px) and ( min-width: 1024px) {
+                .course-col3:hover{
+                    box-shadow: 0 0 50px 0px rgba(224, 159, 17, 0.932);
+                    border: 50px solid transparent;
+                    box-sizing: border-box;
+                    border-radius: 10px;;
+                    background-image: url(Egg.png);
+                    background-position: center;
+                    background-size:cover;
+                    color: transparent;
+                    margin-bottom: 100px;
+                    
+                    }
+            }
+       
+            .row2{
+                display: flex;
+                justify-content: space-between;
+                margin-left: 2%;
+            }
+            .hero-btn2{
+                display: inline-block;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 1px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 15px;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: hidden;
+            }
+            @media (max-width: 480px)  {
+                .hero-btn2{
+                    display: inline-block;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    border: 1px solid rgb(255, 255, 255);
+                    padding: 12px 34px;
+                    font-size: 15px;
+                    background: transparent;
+                    position: relative;
+                    cursor: pointer;
+                    visibility: hidden;
+                }
+            }
+            @media (max-width: 768px) and ( min-width: 480px) {
+                .hero-btn2{
+                    display: inline-block;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    border: 1px solid rgb(255, 255, 255);
+                    padding: 12px 34px;
+                    font-size: 15px;
+                    background: transparent;
+                    position: relative;
+                    cursor: pointer;
+                    visibility: hidden;
+                }
+            }
+            @media (max-width: 1024px) and ( min-width: 768px) {
+                .hero-btn2{
+                    display: inline-block;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    border: 1px solid rgb(255, 255, 255);
+                    padding: 12px 34px;
+                    font-size: 15px;
+                    background: transparent;
+                    position: relative;
+                    cursor: pointer;
+                    visibility: hidden;
+                }
+            }
+            @media (max-width: 1200px) and ( min-width: 1024px) {
+                .hero-btn2{
+                    display: inline-block;
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    border: 1px solid rgb(255, 255, 255);
+                    padding: 12px 34px;
+                    font-size: 15px;
+                    background: transparent;
+                    position: relative;
+                    cursor: pointer;
+                    visibility: hidden;
+                }
+            }
+        .linkBild {
+            margin-left: 10%;
+            margin-bottom: 5%;
+        }
+        .linkFoto {
+            margin-right: 1%;
+        }
+        .linkDesign{
+            margin-right: 10%;
+
+        }
+        .hero-btn3{
+            display: inline;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            border: 2px solid rgb(255, 255, 255);
+            padding: 12px 34px;
+            font-size: 20px;
+            font-weight: 500;
+            background: transparent;
+            position: relative;
+            cursor: pointer;
+            visibility: visible;  
+            margin: 0;
+             margin-top: 20%;
+             margin-left: 28%;
+           
+    }
+        @media (max-width: 330px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 8px 20px;
+                font-size: 14px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin: 0;
+                margin-left: 13%;
+                margin-top: 25%;
+                text-align: center;
+        
+        }
+        }
+        @media (max-width: 380px) and (min-width: 330px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 8px 20px;
+                font-size: 14px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin: 0;
+                margin-left: 16.5%;
+                margin-top: 25%;
+                text-align: center;
+        
+        }
+        }
+        @media (max-width: 423px) and (min-width: 380px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 8px 20px;
+                font-size: 14px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin: 0;
+                margin-left: 21.5%;
+                margin-top: 25%;
+                text-align: center;
+        
+        }
+        }
+        @media (max-width: 480px) and (min-width: 423px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 14px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin: 0;
+                margin-left: 12%;
+                margin-top: 25%;
+                text-align: center;
+        
+        }
+        }
+        @media (max-width: 580px) and ( min-width: 480px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 16px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin: 0;
+                margin-left: 12%;
+                margin-top: 25%;
+                text-align: center;
+        
+        }
+        }
+        @media (max-width: 640px) and ( min-width: 580px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 20px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin: 0;
+                margin-left: 17%;
+                margin-top: 25%;
+                text-align: center;
+        
+        }
+        }
+        @media (max-width: 768px) and ( min-width: 640px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 20px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin: 0;
+                margin-left: 23%;
+                margin-top: 25%;
+                text-align: center;
+        
+        }
+        }
+        @media (max-width: 830px) and ( min-width: 768px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 20px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin-left: 26%;
+                margin-top: 25%;
+                text-align: center;
+        }
+        }
+        @media (max-width: 1024px) and ( min-width: 830px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 20px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin-left: 30%;
+                margin-top: 25%;
+                text-align: center;
+        }
+        }
+        @media (max-width: 1100px) and ( min-width: 1024px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 20px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin-left: 34%;
+                margin-top: 25%;
+                text-align: center;
+        }
+        }   
+        @media (max-width: 1200px) and ( min-width: 1100px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 20px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin-left: 36%;
+                margin-top: 25%;
+                text-align: center;
+        }
+        }   
+        @media (max-width: 1300px) and ( min-width: 1200px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 20px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin: 0;
+                 margin-top: 20%;
+                 margin-left: 16%;
+               
+        }
+        }   
+        @media (max-width: 1400px) and ( min-width: 1300px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 20px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin: 0;
+                 margin-top: 20%;
+                 margin-left: 19%;
+               
+        }
+        }   
+        @media (max-width: 1600px) and ( min-width: 1400px) {
+            .hero-btn3{
+                display: inline;
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+                padding: 12px 34px;
+                font-size: 20px;
+                font-weight: 500;
+                background: transparent;
+                position: relative;
+                cursor: pointer;
+                visibility: visible;  
+                margin: 0;
+                 margin-top: 20%;
+                 margin-left: 22%;
+               
+        }
+        }   
+            .linkBild {
+                margin-left: 10%;
+                margin-bottom: 5%;
+            }
+            .linkFoto {
+                margin-right: 1%;
+            }
+            .linkDesign{
+                margin-right: 10%;
+                }
+
+                /* footer */
+.footer {
+    text-align: center;
+    position: relative;
+}
+.footer a{
+    margin-top: 30%;
+    font-size: 15px;
+    text-align: center;
+    padding: 30px  ;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    
+
+}
+.Impressum {
+    color: white;
+}
