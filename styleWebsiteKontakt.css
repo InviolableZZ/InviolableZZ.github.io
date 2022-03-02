@@ -341,7 +341,7 @@ nav{
         text-align: center;
         color: white;
         margin-top: 5%;
-        font-size: 15px;
+        font-size: 16px;
         transition: 3s;
         margin-left: 7%;
         margin-right: 7%;
@@ -352,7 +352,7 @@ nav{
         text-align: center;
         color: white;
         margin-top: 5%;
-        font-size: 15px;
+        font-size: 18px;
         transition: 3s;
         margin-left: 7%;
         margin-right: 7%;
@@ -363,7 +363,7 @@ nav{
         text-align: center;
         color: white;
         margin-top: 5%;
-        font-size: 15px;
+        font-size: 18px;
         transition: 3s;
         margin-left: 7%;
         margin-right: 7%;
@@ -436,6 +436,419 @@ nav{
         position: relative;
         cursor: pointer;
         
+    }
+}
+.kontaktInsta {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    border-top:  10px solid white;
+    border-bottom: 10px solid white;
+    box-sizing: border-box;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: transparent;
+   
+    
+}
+@media (max-width: 372px) {
+    .kontaktInsta {
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+    border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+@media (max-width: 426px) and (min-width: 372px){
+    .kontaktInsta {
+        color: white;
+        font-size: 17px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+    border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+
+
+@media (max-width: 606px) and (min-width: 426px) {
+    .kontaktInsta {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+    border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+@media (max-width: 762px) and (min-width: 606px) {
+    .kontaktInsta {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+    border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+@media (max-width: 860px) and (min-width: 762px) {
+    .kontaktInsta {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+        border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+@media (max-width: 1032px) and (min-width: 860px) {
+    .kontaktInsta {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+    border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+    }
+@media (max-width: 1200px) and (min-width: 1032px) {
+    .kontaktInsta {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+        border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+.kontaktInsta a{
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: transparent;
+}
+@media (max-width: 372px) {
+    .kontaktInsta a{
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+@media (max-width: 426px) and (min-width: 372px){
+    .kontaktInsta a{
+        font-size: 17px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+@media (max-width: 606px) and (min-width: 426px) {
+    .kontaktInsta a{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+@media (max-width: 762px) and (min-width: 606px) {
+    .kontaktInsta a{
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+@media (max-width: 860px) and (min-width: 762px) {
+    .kontaktInsta a{
+        font-size: 35px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+@media (max-width: 1032px) and (min-width: 860px) {
+    .kontaktInsta a{
+        font-size: 40px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+    }
+    
+@media (max-width: 1200px) and (min-width: 1032px) {
+    .kontaktInsta a{
+        font-size: 50px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+.kontaktEmail {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    border-top:  10px solid white;
+    border-bottom: 10px solid white;
+    box-sizing: border-box;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: transparent;
+}
+@media (max-width: 372px) {
+    .kontaktEmail {
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+        border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+@media (max-width: 426px) and (min-width: 372px){
+    .kontaktEmail {
+        color: white;
+        font-size: 17px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+    border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+
+@media (max-width: 606px) and (min-width: 426px){
+    .kontaktEmail {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+    border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+@media (max-width: 762px) and (min-width:606px) {
+    .kontaktEmail {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+    border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+@media (max-width: 860px) and (min-width: 762px) {
+    .kontaktEmail {
+        color: white;
+        font-size: 35px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+    border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+@media (max-width: 1032px) and (min-width: 860px) {
+    .kontaktEmail {
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+    border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+    }
+@media (max-width: 1200px) and (min-width: 1032px) {
+    .kontaktEmail {
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        padding: 20px;
+        border-top:  10px solid white;
+        border-bottom: 10px solid white;
+        box-sizing: border-box;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        background-color: transparent;
+        
+    }
+}
+.kontaktEmail a{
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: transparent;
+}
+@media (max-width: 372px) {
+    .kontaktEmail a{
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+@media (max-width: 426px) and (min-width: 372px){
+    .kontaktEmail a{
+        font-size: 17px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+@media (max-width: 606px) and (min-width: 426px){
+    .kontaktEmail a{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+@media (max-width: 762px) and (min-width:606px) {
+    .kontaktEmail a{
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+@media (max-width: 860px) and (min-width: 762px) {
+    .kontaktEmail a{
+        font-size: 35px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+}
+@media (max-width: 1032px) and (min-width: 860px) {
+    .kontaktEmail a{
+        font-size: 40px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
+    }
+    }
+    
+@media (max-width: 1200px) and (min-width: 1032px) {
+    .kontaktEmail a{
+        font-size: 50px;
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        background-color: transparent;
     }
 }
 /* footer */
