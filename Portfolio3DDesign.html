@@ -9,7 +9,7 @@
 
     <!---Css-Datei-->
     <link rel="stylesheet" href="styleFotoDesignBild.css">
-
+    <link rel="stylesheet" href="lightbox.css">
     <!---google Font-->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,26 +40,36 @@
         </nav>
 
         <div class="fotosektion">
-        <div class="gallery">
-          
-            <img src="Skulptur.png">
-            <img src="Eggcelent Full.png">
-            <img src="Eggelent.png">
-            <img src="Egg.png">
-            <img src="Minecraft icon.png">
-            <img src="Wave Bild.png">
-        </div>
-        </div>
+            <div class="gallery">
+                <a href="Skulptur.png" data-lightbox="model" data-titel="Caption1">
+                    <img src="Skulptur.png">
+                </a>
+                <a href="Eggcelent Full.png" data-lightbox="model" data-titel="Caption1">
+                    <img src="Eggcelent Full.png">
+                </a>
+                <a href="Eggelent.png" data-lightbox="model" data-titel="Caption1">
+                    <img src="Eggelent.png">
+                </a>
+                <a href="Egg.png" data-lightbox="model" data-titel="Caption1">
+                    <img src="Egg.png">
+                </a>
+                <a href="Minecraft icon.png" data-lightbox="model" data-titel="Caption1">
+                    <img src="Minecraft icon.png">
+                </a>
+                <a href="Wave Bild.png" data-lightbox="model" data-titel="Caption1">
+                    <img src="Wave Bild.png">
+                </a>
 
-        <!----Footer-->
-    <section class="footer">
-        
-        <a href="ImpressumWebsite.html"> Impressum</a>
-        <a href="DatenschutzWebsite.html"> Datenschutz</a>
-        
-
-    </section>
+            </div>
+            </div>
     
-    
-</body>
+             <!----Footer-->
+        <section class="footer">
+            
+            <a href="ImpressumWebsite.html"> Impressum</a>
+            <a href="DatenschutzWebsite.html"> Datenschutz</a>
+            
+        </section>
+        <script src="lightbox-plus-jquery.js"></script>
+    </body>
 </html>
