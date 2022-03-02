@@ -9,7 +9,7 @@
 
     <!---Css-Datei-->
     <link rel="stylesheet" href="styleFotoDesignBild.css">
-
+    <link rel="stylesheet" href="lightbox.css">
     <!---google Font-->
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,25 +39,30 @@
         </nav>
 
         <div class="fotosektion">
-        <div class="gallery">
-            <img src="Orangenbild Kopie 2.jpg">
-            <img src="IMG_7742.JPG">
-            <img src="IMG_7477-Edit Kopie.jpg">
-            <img src="Leipzig Abend Bild Kopie.jpg">
-            
-
-           
-        </div>
-        </div>
-       <!----Footer-->
-    <section class="footer">
-        
-        <a href="ImpressumWebsite.html"> Impressum</a>
-        <a href="DatenschutzWebsite.html"> Datenschutz</a>
-        
-    </section>
-
-
+            <div class="gallery">
+                <a href="Orangenbild Kopie 2.jpg" data-lightbox="model" data-titel="Das Bild einer großartigen Orange">
+                    <img src="Orangenbild Kopie 2.jpg">
+                </a>
+                <a href="IMG_7742.JPG" data-lightbox="model" data-titel="Caption1">
+                    <img src="IMG_7742.JPG">
+                </a>
+                <a href="IMG_7477-Edit Kopie.jpg" data-lightbox="model" data-titel="Caption1">
+                    <img src="IMG_7477-Edit Kopie.jpg">
+                </a>
+                <a href="Leipzig Abend Bild Kopie.jpg" data-lightbox="model" data-titel="Caption1">
+                    <img src="Leipzig Abend Bild Kopie.jpg">
+                </a>
+                
+            </div>
+            </div>
     
-</body>
+             <!----Footer-->
+        <section class="footer">
+            
+            <a href="ImpressumWebsite.html"> Impressum</a>
+            <a href="DatenschutzWebsite.html"> Datenschutz</a>
+            
+        </section>
+        <script src="lightbox-plus-jquery.js"></script>
+    </body>
 </html>
