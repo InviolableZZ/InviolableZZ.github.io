@@ -429,8 +429,22 @@ nav{
 
 
 .text-box h1{
+    
     font-size: 62px;
+    color: transparent;
     background: transparent;
+    -webkit-text-stroke: 0.5px white;
+    background-image: url(Fraktal\ weiss.jpg);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 40s linear infinite;
+    
+    
+}
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
 }
 @media (max-width: 480px)  {
     .text-box h1{
@@ -509,6 +523,11 @@ nav{
                 }
 
 
+
+
+
+
+               
 
 
 
