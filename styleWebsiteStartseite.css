@@ -31,22 +31,22 @@
     @keyframes animate {
 
     0% {
-        background-image: url(Michelangelo1.png) ;
+        background-image: url(Michelangelo1.jpg) ;
      }
 
     
     25% {
-        background-image: url(Blumenstock.png) ;
+        background-image: url(Blumenstock.jpg) ;
      }
      50% {
-        background-image: url(Flasche\ Hintergrund.png) ;
+        background-image: url(Flasche\ Hintergrund.jpg) ;
      }
     
      75% {
-        background-image: url(Filmstreifen\ Kopie.png) ;
+        background-image: url(Filmstreifen\ Kopie.jpg) ;
      }
      100% {
-        background-image: url(Sternenhimmel\ -\ Kopie.png) ;
+        background-image: url(Sternenhimmel\ -\ Kopie.jpg) ;
      }
      
 
