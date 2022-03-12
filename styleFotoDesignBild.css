@@ -202,17 +202,19 @@ background-color: black;
     text-align: center;
     padding: 30px  ;
     background: transparent;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     
 
 }
 .Impressum {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
-/*media Teil*/
+
+
+
 
 
 
