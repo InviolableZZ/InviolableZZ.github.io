@@ -477,7 +477,7 @@ h3{
         border: 10px solid rgb(224, 159, 17, 0.932);
         box-sizing: border-box;
         border-radius: 10px;;
-        background-image: url( Grafitti\ kom.jpeg) ;
+         background-image: url(Grafitti\ kom.jpeg);
         background-position: center;
         background-size:cover;
         color: transparent;
@@ -502,7 +502,7 @@ h3{
                 border: 50px solid transparent;
                 box-sizing: border-box;
                 border-radius: 10px;;
-                background-image: url(Grafitti\ kom.jpeg);
+                 background-image: url(Grafitti\ kom.jpeg);
                 background-position: center;
                 background-size:cover;
                 color: transparent;
@@ -516,7 +516,7 @@ h3{
                 border: 50px solid transparent;
                 box-sizing: border-box;
                 border-radius: 10px;;
-                background-image: url(Grafitti\ kom.jpeg);
+                 background-image: url(Grafitti\ kom.jpeg);
                 background-position: center;
                 background-size:cover;
                 color: transparent;
