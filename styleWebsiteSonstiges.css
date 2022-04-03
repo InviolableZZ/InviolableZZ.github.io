@@ -261,110 +261,399 @@ nav{
  margin-top: 3%;
  
 }
+@media (max-width: 480px)  {
+    .veröffentlichung {
+        border: 4px solid white;
+        margin-left: 10%;
+        box-sizing: border-box;
+        border-width: 5px;
+        margin-right: 10%;
+        margin-top: 3%;
+        
+       }
+}
+@media (max-width: 768px) and ( min-width: 480px) {
+    .veröffentlichung {
+        border: 4px solid white;
+        margin-left: 10%;
+        box-sizing: border-box;
+        border-width: 5px;
+        margin-right: 10%;
+        margin-top: 3%;
+        
+       }
+}
+@media (max-width: 1024px) and ( min-width: 768px) {
+    .veröffentlichung {
+        border: 4px solid white;
+        margin-left: 10%;
+        box-sizing: border-box;
+        border-width: 5px;
+        margin-right: 10%;
+        margin-top: 3%;
+        
+       }
+}
+@media (max-width: 1200px) and ( min-width: 1024px) {
+    .veröffentlichung {
+        border: 4px solid white;
+        margin-left: 10%;
+        box-sizing: border-box;
+        border-width: 5px;
+        margin-right: 10%;
+        margin-top: 3%;
+        
+       }
+}
+
 .veröffentlichung h1 {
     color: white;
     font-size: 30px;
     font-weight: 500;
     display: flex;
     text-align: center;
-    margin-left: 35%;
+    justify-content: center;
     line-height: 25px;
     margin-bottom: 2%;
-    margin-top: 3%;
+    margin-top: 5%;
    
 }
-
+@media (max-width: 320px) {
+    .veröffentlichung h1 {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+        margin-bottom: 2%;
+        margin-top: 5%;
+       
+    }
+}
+@media (max-width: 480px) and ( min-width: 320px)  {
+    .veröffentlichung h1 {
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+        margin-bottom: 2%;
+        margin-top: 5%;
+       
+    }
+}
+@media (max-width: 768px) and ( min-width: 480px) {
+    .veröffentlichung h1 {
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+        margin-bottom: 2%;
+        margin-top: 5%;
+       
+    }
+}
+@media (max-width: 1024px) and ( min-width: 768px) {
+    .veröffentlichung h1 {
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        display: flex;
+        
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+        margin-bottom: 2%;
+        margin-top: 5%;
+       
+    }
+}
+@media (max-width: 1200px) and ( min-width: 1024px) {
+    .veröffentlichung h1 {
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        display: flex;
+        
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+        margin-bottom: 2%;
+        margin-top: 5%;
+       
+    }
+}
 
 .veröffentlichung h2 {
+    color: white;
+    font-size: 23px;
+    font-weight: 200;
+    display: flex;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+@media (max-width: 320px) {
+    .veröffentlichung h2 {
+        color: white;
+        font-size: 12px;
+        font-weight: 200;
+        display: flex;
+        text-align: left;
+        margin-left: 15%;
+        margin-right: 15%;
+        line-height: 25px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+@media (max-width: 480px) and ( min-width: 320px)  {
+    .veröffentlichung h2 {
+        color: white;
+        font-size: 15px;
+        font-weight: 200;
+        display: flex;
+        text-align: left;
+        margin-left: 15%;
+        margin-right: 15%;
+        line-height: 25px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+@media (max-width: 590px) and ( min-width: 480px) {
+    .veröffentlichung h2 {
+        color: white;
+        font-size: 18px;
+        font-weight: 200;
+        display: flex;
+        text-align: left;
+        margin-left: 15%;
+        margin-right: 15%;
+        line-height: 25px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+@media (max-width: 768px) and ( min-width: 590px) {
+    .veröffentlichung h2 {
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        display: flex;
+        text-align: left;
+        margin-left: 15%;
+        margin-right: 15%;
+        line-height: 25px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+@media (max-width: 1024px) and ( min-width: 768px) {
+    .veröffentlichung h2 {
+        color: white;
+        font-size: 20px;
+        font-weight: 200;
+        display: flex;
+        text-align: left;
+        margin-left: 15%;
+        margin-right: 15%;
+        line-height: 25px;
+
+    }
+}
+@media (max-width: 1200px) and ( min-width: 1024px) {
+    .veröffentlichung h2 {
     color: white;
     font-size: 20px;
     font-weight: 200;
     display: flex;
     text-align: left;
-    margin-left: 11%;
+    margin-left: 15%;
+    margin-right: 15%;
     line-height: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-
+}
 .veröffentlichung img {
-    width: 70%;
-    margin-left: 11%;
-    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
 }
 .veröffentlichung h3 {
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    display: flex;
-    text-align: center;
-    margin-left: 38%;
-    line-height: 25px;
-    margin-bottom: 2%;
-    margin-top: 3%;
-}
-
-/*
-.logodesign {
-    border: 4px solid white;
- margin-left: 10%;
- box-sizing: border-box;
- border-width: 5px;
- margin-right: 10%;
- margin-top: 3%;
-    
- 
-}
-.logodesign h1 {
     color: white;
     font-size: 30px;
     font-weight: 500;
     display: flex;
     text-align: center;
-    margin-left: 35%;
+    justify-content: center;
     line-height: 25px;
     margin-bottom: 2%;
     margin-top: 3%;
 }
-.logodesign h2 {
-    color: white;
-    font-size: 20px;
-    font-weight: 200;
-    display: flex;
-    text-align: left;
-    margin-left: 11%;
-    line-height: 25px;
+@media (max-width: 320px) {
+    .veröffentlichung h3 {
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+        margin-bottom: 2%;
+        margin-top: 3%;
+    }
 }
-.logodesign h3 {
+@media (max-width: 480px) and ( min-width: 320px)  {
+    .veröffentlichung h3 {
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+        margin-bottom: 2%;
+        margin-top: 3%;
+    }
+}
+@media (max-width: 768px) and ( min-width: 480px) {
+   .veröffentlichung h3 {
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 500;
     display: flex;
     text-align: center;
-    margin-left: 38%;
+    justify-content: center;
     line-height: 25px;
     margin-bottom: 2%;
     margin-top: 3%;
 }
- */
+}
+@media (max-width: 1024px) and ( min-width: 768px) {
+    .veröffentlichung h3 {
+        color: white;
+        font-size: 27px;
+        font-weight: 500;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+        margin-bottom: 2%;
+        margin-top: 3%;
+    }
+}
+@media (max-width: 1200px) and ( min-width: 1024px) {
+    .veröffentlichung h3 {
+        color: white;
+        font-size: 27px;
+        font-weight: 500;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        line-height: 25px;
+        margin-bottom: 2%;
+        margin-top: 3%;
+    }
+}
 
 .hero-btn{
-    display: inline-block;
+    
     text-decoration: none;
     color: rgb(255, 255, 255);
     border: 1px solid rgb(255, 255, 255);
     padding: 12px 34px;
     font-size: 15px;
     background: transparent;
-    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
     cursor: pointer;
-    margin-left: 42%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     margin-bottom: 5%;
     
+}
+@media (max-width: 320px) {
+    .hero-btn{
+    
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        padding: 12px 34px;
+        font-size: 10px;
+        background: transparent;
+        margin-left: 20%;
+        margin-right: 20%;
+        cursor: pointer;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 5%;
+        
+    }
+}
+@media (max-width: 390px) and ( min-width: 320px)  {
+    .hero-btn{
+    
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        padding: 12px 34px;
+        font-size: 10px;
+        background: transparent;
+        margin-left: 20%;
+        margin-right: 20%;
+        cursor: pointer;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 5%;
+        
+    }
+}
+@media (max-width: 480px) and ( min-width: 390px)  {
+    .hero-btn{
+    
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+        padding: 12px 34px;
+        font-size: 10px;
+        background: transparent;
+        margin-left: 30%;
+        margin-right: 30%;
+        cursor: pointer;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 5%;
+        
+    }
 }
 .hero-btn:hover{
     border: 1px solid #e79231;
     background: #e79231;
     transition: 1s;
 }
+
 
 
 
@@ -390,4 +679,5 @@ nav{
                     color: white;
                 }
 
+                
                 
